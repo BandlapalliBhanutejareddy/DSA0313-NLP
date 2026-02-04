@@ -1,5 +1,5 @@
 import re
-text=" sai123@gmail.com or 9182824332"
+text=" teja33@gmail.com or 7893564252"
 email_pattern = r"\w+@\w+.\w+"
 phone_pattern = r"\d{10}"
 email=re.search(email_pattern, text)
@@ -12,3 +12,4 @@ if phone:
     print("found phone", phone.group())
 else:
     print("not found")
+
